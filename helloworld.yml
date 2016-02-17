@@ -1,7 +1,5 @@
 ---
-- name: Hello World!
-- host: dev 
+- hosts: "{{var1}}"
   tasks:
- 
-  - name: Hello World!
-    shell: echo "Hi! Tower is working."
+   - name: Hello World!
+     shell: echo "Hi! Tower is working."
